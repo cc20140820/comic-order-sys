@@ -4,3 +4,21 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+.top_area{
+    height: 300px;
+    position: relative;
+}
+.lantern_area{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 300px;
+}
+.tag_area{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 800px;
+    height: 300px;
+}
