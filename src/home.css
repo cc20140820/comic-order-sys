@@ -3,22 +3,93 @@
     background-image: url('./images/bg.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-}
-.top_area{
-    height: 300px;
     position: relative;
 }
+.top_area{
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.top_area .tag{
+    height: 200px;
+    position: relative;
+    right: 10px;
+}
 .lantern_area{
+    width: 800px;
+    height: 240px;
+}
+.couple{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 290px;
+}
+.couple img:nth-child(1){
+    width: 220px;
+}
+.couple img:nth-child(2){
+    width: 250px;
+}
+.drink{
+    position: absolute;
+    top: 820px;
+    left: 620px;
+    overflow: hidden;
+}
+.drink img{
+    width: 240px;
+    position: relative;
+    right: 20px;
+}
+.pot{
+    position: absolute;
+    top: 970px;
+    left: 220px;
+}
+.pot img{
+    width: 280px;
+}
+.dancing{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    bottom: 350px;
+    right: 0;
+    
+}
+.dancing_wrap{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.dancing img:nth-child(1){
+    width: 220px;
     position: absolute;
     left: 0;
-    top: 0;
-    width: 800px;
-    height: 300px;
+    bottom: 30px;
 }
-.tag_area{
+.dancing img:nth-child(2){
+    width: 230px;
     position: absolute;
     right: 0;
-    top: 0;
-    width: 800px;
-    height: 300px;
+    bottom: 20px;
+}
+.dancing img:nth-child(3){
+    width: 350px;
+    position: absolute;
+    left: 40px;
+    top: -60px;
+}
+
+.cook{
+    position: absolute;
+    bottom: 340px;
+    left: 40px;
+}
+.cook img{
+    width: 380px;
 }

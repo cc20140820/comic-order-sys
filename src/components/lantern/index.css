@@ -1,6 +1,6 @@
 .lantern{
-  width: 260px;
-  height: 260px;
+  width: 240px;
+  height: 240px;
   display: inline-block;
   background-repeat: no-repeat;
   background-size: 150% 150%;
@@ -10,8 +10,8 @@
   background-position: center center;
 }
 .lantern_mid{
-  width: 260px;
-  height: 260px;
+  width: 240px;
+  height: 240px;
   display: inline-block;
   background-repeat: no-repeat;
   background-size: 150% 150%;
@@ -21,8 +21,8 @@
   background-position: center center;
 }
 .lantern_right{
-  width: 260px;
-  height: 260px;
+  width: 240px;
+  height: 240px;
   display: inline-block;
   background-repeat: no-repeat;
   background-size: 150% 150%;
